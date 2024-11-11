@@ -1,6 +1,7 @@
+name: A cron Job
 on:
   schedule:
-    - cron: '*/5 * * * *'
+    - cron: '*/2 * * * *'
 
 jobs:
   hello_world:
